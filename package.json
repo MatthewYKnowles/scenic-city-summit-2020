@@ -1,0 +1,25 @@
+{
+  "name": "scenic-city-summit-2020",
+  "version": "1.0.0",
+  "description": "An example for Mutation Testing",
+  "main": "index.js",
+  "repository": {
+    "url": "https://github.com/MatthewYKnowles/scenic-city-summit-2020"
+  },
+  "scripts": {
+    "test": "karma start",
+    "stryker": "stryker run"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine-core": "^3.5.0",
+    "karma": "^4.4.1",
+    "karma-chrome-launcher": "^3.1.0",
+    "karma-coverage": "^1.1.2",
+    "karma-jasmine": "^3.1.0",
+    "@stryker-mutator/core": "^3.1.0",
+    "@stryker-mutator/jasmine-framework": "^3.1.0",
+    "@stryker-mutator/javascript-mutator": "^3.1.0",
+    "@stryker-mutator/karma-runner": "^3.1.0"
+  }
+}
