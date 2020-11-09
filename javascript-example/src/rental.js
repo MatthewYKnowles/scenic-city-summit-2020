@@ -4,10 +4,10 @@ const Rental = function () {
 Rental.prototype.statement = function (customer) {
 
     const movies = {
-        F001: {title: 'Ran', code: 'regular'},
-        F002: {title: 'Trois Couleurs: Bleu', code: 'regular'},
-        F003: {title: 'Cars 2', code: 'childrens'},
-        F004: {title: 'Avengers', code: 'new'},
+        F001: { title: 'Ran', code: 'regular' },
+        F002: { title: 'Trois Couleurs: Bleu', code: 'regular' },
+        F003: { title: 'Cars 2', code: 'childrens' },
+        F004: { title: 'Avengers', code: 'new' },
         //EXERCISE NOTE: add more movies if you need
     };
 
